@@ -1,0 +1,19 @@
+.todo-list li label {
+  display: inline-block !important;
+}
+
+:focus,
+.toggle:focus + label,
+.toggle-all:focus + label {
+  box-shadow: none !important;
+}
+
+.badge {
+  background-color: blueviolet;
+}
+
+.badge-container {
+  right: 50px;
+  top: 15px;
+  position: absolute;
+}
